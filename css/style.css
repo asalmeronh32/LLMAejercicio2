@@ -144,6 +144,7 @@ h3{
 
 .img{
     text-align: center;
+    margin-top: 10%;
 }
 
 .web{
@@ -159,7 +160,7 @@ a:hover{
     float: left;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
 
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
@@ -174,7 +175,22 @@ a:hover{
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
-      
+
+    #menu2{
+        display:none;
+    }
+    
+    .img{
+        margin-top: 35%;
+    }
+
+
+    h3{margin: auto;}
+
+    .imagenes{
+        margin-top: 50%;
+    }
+
     }
 
     @media only screen and (min-width: 768px) {
